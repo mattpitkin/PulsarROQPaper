@@ -1,0 +1,65 @@
+\documentclass[useAMS,usenatbib,usegraphicx]{mn2e}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Useful packages
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{aas_macros}
+\usepackage{bm}
+\usepackage{algorithm, algorithmic}
+\usepackage{color}
+
+\newcommand{\refcomment}[1]{{\color{red} #1}}
+
+\title[Reduced Order Modelling for Continuous GWs]{Reduced Order Modelling in searches for continuous
+gravitational waves - II. reduced order quadrature for fast likelihood evaluatoin}
+\author[M.~Pitkin]{M.~Pitkin$^1$\thanks{matthew.pitkin@glasgow.ac.uk} \\
+$^1$SUPA, School of Physics and Astronomy, University of Glasgow,
+University Avenue, Glasgow, G12 8QQ, UK \\
+
+\pagerange{\pageref{firstpage}--\pageref{lastpage}} \pubyear{2018}
+
+\begin{document}
+
+\label{firstpage}
+
+\maketitle
+
+\begin{abstract}
+\input{abstract.tex}
+\end{abstract}
+
+\begin{keywords}
+gravitational waves, pulsars: general, methods: data analysis
+\end{keywords}
+
+\section{Introduction}\label{sec:intro}
+
+An intro...
+
+\section*{Acknowledgements}
+
+This work has benefited greatly from discussions with Rory Smith, and from many
+discussions with members of the LIGO Scientific Collaboration and Virgo Collaboration,
+in particular members of the continuous waves working group. The analysis has
+relied on the {\sc greedycpp} software \citep{greedycpp} and LALSuite \citep{LALSuite}. The analysis
+has also been greatly aided by the use of IPython \citep{PER-GRA:2007}, jupyter notebooks 
+\citep{kluyver2016jupyter} and Cython \citep{behnel2010cython}, and all plots have been produced 
+using Matplotlib \citep{Hunter:2007,michael_droettboom_2017_248351}. 
+MP is funded by the STFC under 
+grant number ST/N005422/1.  This paper carries LIGO Document Number LIGO-P18XXXXX.
+
+\bibliographystyle{mn2e}
+\bibliography{main}
+
+\label{lastpage}
+
+\end{document}
+
